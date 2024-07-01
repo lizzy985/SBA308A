@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./scripts.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Dashboard</h1>
+        <form id="weather-form">
+          <input type="text" id="city-input" placeholder="Enter city name" required>
+          <button type="submit" id="btn">Get Weather</button>
+          
+          <button id="getfavbtn">Get Favorites</button>
+        </form>
+        <div id="weather-info" class="weather-info">
+          <!-- <button id="save-button" style="display: none;">Save to Favorites</button> -->
+          <!-- Weather details will be inserted here -->
+        </div>
+
+        <!-- <button id="save-button" style="display: none;">Save to Favorites</button> -->
+        <!-- <div id="favorites-info" class="favorites-info"> -->
+          <!-- Favorite cities will be listed here -->
+        <!-- </div> -->
+
+        <div id="fore-container" >
+          <div id="5dayForecast"></div>
+          <div id="forecast" class="forecast"></div>
+        </div>
+
+        <div id="favorites-container">
+          <h2 id="favoritesHead"></h2>
+          <div id="favorites-info" class="favorites-info"></div>
+         
+          <!-- Favorite cities will be listed here -->
+        </div>
+      </div>
+    
+</body>
+</html>

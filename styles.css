@@ -1,0 +1,136 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  
+}
+  
+.container {
+  /* width: 60%; */
+  text-align: center;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgb(191, 229, 245);
+}
+
+#weather-form {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#city-input {
+  /* width: 300px; */
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+#btn {
+  padding: 10px 20px;
+  margin: 10px 5px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#save-button {
+  padding: 10px 20px;
+  margin: 10px 5px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#getfavbtn{
+  padding: 10px 20px;
+  margin: 10px 5px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#btn:hover, #save-button:hover, #getfavbtn:hover {
+  background-color: #0056b3;
+}
+
+  
+.weather-info {
+  width: 40%;
+  margin: auto;
+  padding: 5px;
+  margin-top: 20px;
+  /* background-color: rgb(191, 229, 245); */
+  border-radius: 8px;
+}
+  
+.weather-info h2 {
+  margin-bottom: 10px;
+}
+  
+.weather-info img {
+  width: 50px;
+  height: 50px;
+}
+
+
+
+.forecast {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(191, 229, 245); */
+  border-radius: 8px;
+}
+
+.forecast-block {
+  width: 100%;
+  margin-bottom: 10px; /* Adjust this value as needed */
+  padding: 5px;
+  
+}
+
+.remove-btn{
+  padding: 10px 20px;
+  margin: 10px 0;
+  background-color: #f06d48;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+#favorites-container {
+  display: none;
+}
+
+#favorites-info {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.fav-item {
+  margin: 0 5px;
+}
