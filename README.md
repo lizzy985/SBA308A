@@ -26,9 +26,7 @@ cd weather-dashboard
 Ensure you have Node.js installed, then run:
 npm install
 3. Set Up Environment:
-Create a .env file in the root directory and add your OpenWeatherMap API key:
-
-API_KEY=your_openweathermap_api_key
+Create a .env file in the root directory 
 4. Run the Backend (if applicable):
 Ensure your backend server is running at http://localhost:3000. If you don't have a backend, you can use the provided code to handle favorite cities.
 
