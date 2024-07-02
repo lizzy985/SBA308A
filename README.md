@@ -18,17 +18,16 @@ Welcome to the Weather Dashboard Application! This project is designed to showca
 * Fetch API: For interacting with a backend server to manage favorite cities.
 * HTML/CSS: For structuring and styling the web page.
 ## Setup and Installation
-1. Clone the Repository:
-
+1. Clone the Repository: 
 git clone <repository-url>
 cd weather-dashboard
-2. Install Dependencies:
+2. Install Dependencies: 
 Ensure you have Node.js installed, then run:
 npm install
-3. Set Up Environment:
-Create a .env file in the root directory 
-4. Run the Backend (if applicable):
-Ensure your backend server is running at http://localhost:3000. If you don't have a backend, you can use the provided code to handle favorite cities.
+3. Set Up Environment: 
+Open a terminal, then run: npm start 
+4. Run the Backend (if applicable): 
+Ensure your backend server is running at http://localhost:3000. If you don't have a backend, you can open a new terminal and run: node server.js
 
 5. Open the Application:
 Open index.html in your browser to start using the Weather Dashboard Application.
